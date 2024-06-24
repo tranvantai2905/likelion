@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, nav, aside, main, footer {
+    padding: 20px;
+    margin: 10px;
+  }
+  header {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  nav {
+    background-color: #e9ecef;
+  }
+  .container {
+    display: flex;
+  }
+  aside {
+    background-color: #f1f3f5;
+    width: 25%;
+  }
+  main {
+    background-color: #fff;
+    width: 75%;
+  }
+  footer {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,15 @@
+*, *::after, *::before {
+  padding: 0px;
+  margin: 0px; 
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p{
+    columns: 2;
+}

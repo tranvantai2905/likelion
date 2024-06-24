@@ -1,0 +1,15 @@
+.list-item{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 1px  black;
+}
+
+/* ul li:not(.active){
+    background-color: aqua;
+} */
+
+li:nth-of-type(even){
+    background-color: blue;
+}

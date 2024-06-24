@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  word-break: break-all;
+}
+
+body {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  margin: 20px;
+  padding: 20px;
+  width: calc(100vw - 10%);
+  background-color: white;
+  border-radius: 12px;
+}
+
+#content header {
+  margin-inline: auto;
+}
+
+h1 {
+  margin-block: 16px 24px;
+}
+
+#content header img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+main :is(h1, h2, h3, h4, h5, h6) {
+  color: crimson;
+}
+
+.prepare {
+  background-color: #ffeff1;
+  padding: 16px;
+  border-radius: 12px;
+  margin-block: 16px;
+}
+
+ul,
+ol {
+  font-size: 16px;
+  word-spacing: 1px;
+  margin-left: 24px;
+  margin-block: 12px;
+  line-height: 18px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+
+ul > li::before {
+  content: '•';
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+
+ol > li::before {
+  content: '1';
+  margin-right: 4px;
+  flex-shrink: 0;
+}
+
+li, p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+ul{
+  list-style-position:inside;
+  list-style-type: circle;
+}
+
+section {
+  margin-block: 32px;
+
+  list-style-position:inside;
+  list-style-type: circle;
+}
+
+section h2 {
+  margin-bottom: 24px;
+}
+
+strong {
+  word-break: keep-all;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  margin-top: 24px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 4px;
+  width: 50%;
+  text-align: left;
+}
+
+table :is(th, td) {
+  padding-left: 16px;
+}

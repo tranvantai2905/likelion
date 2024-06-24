@@ -1,0 +1,24 @@
+*, *::after, *::before {
+  padding: 0px;
+  margin: 0px; 
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* -webkit-text-stroke: 1px red; */
+    text-shadow:
+    -1px -1px 0 red,  
+    /* 1px -1px 0 red, */
+    /* -1px 1px 0 red, */
+    /* 1px 1px 0 red;  */
+}
